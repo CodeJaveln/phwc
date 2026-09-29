@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-#include "config.h"
+#define TAB "    "
 
 #define CODE \
 "#include <stdio.h>\n" \
 "\n" \
-"int main(void) {\n" \
+"int main() {\n" \
 TAB "printf(\"Hello, world!\\n\");\n" \
 TAB "return 0;\n" \
 "}\n"
