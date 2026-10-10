@@ -11,6 +11,6 @@ TAB "return 0;\n" \
 "}\n"
 
 int main() {
-    printf(CODE);
+    puts(CODE);
     return 0;
 }
